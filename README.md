@@ -53,20 +53,24 @@ Esta API foi desenvolvida em Python para servir como backend de um aplicativo de
 
 2. Crie um ambiente virtual e ative-o:
 
-   ```python -m venv venv
+   ```bash
+    python -m venv venv
     source venv/bin/activate  # No Windows: venv\Scripts\activate
 
 3. Instale as dependências:
    
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Crie um arquivo .env baseado no .env.example e configure as variáveis de ambiente, como credenciais do banco de dados.
 
 5. Execute as migrações do banco de dados:
    
-   ```alembic upgrade head
+   ```bash
+   alembic upgrade head
 
 6. Execute a aplicação:
 
-    ```uvicorn app.main:app --reload
+    ```bash
+    uvicorn app.main:app --reload
 
