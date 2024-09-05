@@ -1,11 +1,11 @@
-# HomeService API
+# Home Todo API
 
 **Descrição**  
 Esta API foi desenvolvida em Python para servir como backend de um aplicativo de solicitação de serviços domésticos, permitindo que usuários busquem prestadores de serviço, solicitem orçamentos, agendem serviços e acompanhem suas solicitações.
 
 ## Tecnologias Utilizadas
 
-- **Python 3.9+**
+- **Python 3.0+**
 - **FastAPI** - Framework para criação de APIs rápidas e modernas
 - **SQLAlchemy** - ORM para interação com o banco de dados
 - **PostgreSQL** - Banco de dados relacional
